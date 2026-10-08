@@ -1,0 +1,26 @@
+{
+  "name": "WORD MEMORY - The Church of Pentecost Dubai",
+  "short_name": "WORD MEMORY",
+  "description": "Official Bible Verse Memorization & Spiritual Growth Platform for The Church of Pentecost Dubai, Pakistani & Indian Worship Centre. Read, Understand, Memorize, Review, and Live the Word.",
+  "start_url": "/",
+  "id": "org.churchofpentecost.wordmemory",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#F8FAFC",
+  "theme_color": "#0B2545",
+  "categories": ["education", "books", "spiritual"],
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

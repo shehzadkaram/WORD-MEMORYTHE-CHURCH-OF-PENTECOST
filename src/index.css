@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-urdu {
+    font-family: 'Noto Nastaliq Urdu', 'Urdu Typesetting', 'Jameel Noori Nastaleeq', 'Nafees Web', 'Segoe UI', Tahoma, Arial, sans-serif;
+  }
+}
+
+/* Accessibility: Clear visual focus indicators for keyboard navigation */
+:focus-visible {
+  outline: 2px solid #F59E0B;
+  outline-offset: 2px;
+}

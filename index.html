@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Memory - The Church of Pentecost Dubai</title>
+    <meta name="description" content="Official Bible Verse Memorization & Spiritual Growth Platform for The Church of Pentecost Dubai, Pakistani & Indian Worship Centre. Read, Understand, Memorize, Review, and Live the Word." />
+    <meta property="og:title" content="Word Memory - The Church of Pentecost Dubai" />
+    <meta property="og:description" content="Official Bible Verse Memorization & Spiritual Growth Platform for The Church of Pentecost Dubai, Pakistani & Indian Worship Centre. Read, Understand, Memorize, Review, and Live the Word." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0B2545" />
+    <meta name="msapplication-TileColor" content="#0B2545" />
+    <meta name="application-name" content="WORD MEMORY" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;800&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased font-sans selection:bg-amber-400 selection:text-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+    <script>
+      if ('serviceWorker' in navigator && window.location.protocol.startsWith('http')) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js').catch(() => {});
+        });
+      }
+    </script>
+  </body>
+</html>
+

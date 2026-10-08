@@ -1,0 +1,50 @@
+{
+  "appId": "org.churchofpentecost.wordmemory",
+  "productName": "WORD MEMORY",
+  "electronVersion": "44.4.3",
+  "copyright": "Copyright © 2026 The Church of Pentecost Dubai - Pakistani & Indian Worship Centre. All rights reserved.",
+  "directories": {
+    "output": "dist-electron",
+    "buildResources": "public"
+  },
+  "files": [
+    "dist/**/*",
+    "electron/**/*",
+    "package.json"
+  ],
+  "extraMetadata": {
+    "main": "electron/main.cjs",
+    "dependencies": {}
+  },
+  "win": {
+    "target": [
+      {
+        "target": "nsis",
+        "arch": ["x64"]
+      },
+      {
+        "target": "portable",
+        "arch": ["x64"]
+      }
+    ],
+    "icon": "public/icon.png",
+    "artifactName": "${productName}-Setup-${version}.${ext}",
+    "requestedExecutionLevel": "asInvoker",
+    "signExecutable": false
+  },
+  "nsis": {
+    "oneClick": false,
+    "allowToChangeInstallationDirectory": true,
+    "allowElevation": false,
+    "packElevateHelper": false,
+    "createDesktopShortcut": true,
+    "createStartMenuShortcut": true,
+    "shortcutName": "WORD MEMORY",
+    "uninstallDisplayName": "WORD MEMORY - The Church of Pentecost Dubai",
+    "deleteAppDataOnUninstall": false,
+    "runAfterFinish": true
+  },
+  "portable": {
+    "artifactName": "${productName}-Portable-${version}.exe"
+  }
+}

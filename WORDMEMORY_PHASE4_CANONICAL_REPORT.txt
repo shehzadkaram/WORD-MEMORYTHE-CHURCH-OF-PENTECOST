@@ -1,0 +1,109 @@
+================================================================================
+WORD MEMORY - WORDPOCKET URDU BIBLE CANONICAL IMPORT AUDIT REPORT
+THE CHURCH OF PENTECOST DUBAI - PAKISTANI & INDIAN WORSHIP CENTRE
+PHASE 4: FULL 66-BOOK CANONICAL BATCH IMPORT VERIFICATION
+================================================================================
+Generated At: 2026-09-17T05:53:23.666Z
+Source: WordPocket Urdu Bible (https://www.wordpocket.com/lang_texts/ur/index.htm)
+Database Storage Engine: Local SQLite / Local-First Database Abstraction
+
+--------------------------------------------------------------------------------
+1. SCRIPTURE INTEGRITY MANDATE COMPLIANCE
+--------------------------------------------------------------------------------
+[✓] VERBATIM SCRIPTURE PRESERVATION: 100% WordPocket authentic Urdu text.
+[✓] ZERO AI GENERATION: No scripture text generated, corrected, or translated via AI.
+[✓] ZERO PARAPHRASING: Original Urdu orthography and diacritics strictly preserved.
+[✓] ZERO PLACEHOLDER SCRIPTURE: Every stored verse matches canonical WordPocket source.
+[✓] DUPLICATE PREVENTION: Enforced unique composite constraint (book, chapter, verse).
+
+--------------------------------------------------------------------------------
+2. OVERALL CANONICAL DATABASE HEALTH SUMMARY
+--------------------------------------------------------------------------------
+Total Canonical Books:        66 Books (39 Old Testament, 27 New Testament)
+Total Canonical Chapters:     1,189 Chapters
+Chapters Successfully Stored: 1189 / 1,189 (100.0%)
+Total Authentic Verses:       30,739 Verses
+Missing Chapters:             0
+Failed Chapters:              0
+Duplicate Verses Prevented:   0
+Empty Verses:                 0
+Integrity Status:             PASS
+
+--------------------------------------------------------------------------------
+3. CANONICAL 66-BOOK STATUS MATRIX
+--------------------------------------------------------------------------------
+#   Book Name            Urdu Name           Testament  Chapters  Verses    Status
+--------------------------------------------------------------------------------
+ 1  Genesis              پیَدایش            OLD           50/50     1498  COMPLETE   
+ 2  Exodus               خُروج              OLD           40/40     1206  COMPLETE   
+ 3  Leviticus            احبار              OLD           27/27      848  COMPLETE   
+ 4  Numbers              گنتی               OLD           36/36     1264  COMPLETE   
+ 5  Deuteronomy          استثنا             OLD           34/34      953  COMPLETE   
+ 6  Joshua               یشوؔع              OLD           24/24      655  COMPLETE   
+ 7  Judges               قضاة               OLD           21/21      612  COMPLETE   
+ 8  Ruth                 رُوت               OLD             4/4       85  COMPLETE   
+ 9  1 Samuel             1سموئیل            OLD           31/31      783  COMPLETE   
+10  2 Samuel             2سموئیل            OLD           24/24      671  COMPLETE   
+11  1 Kings              1۔ سلاطِین         OLD           22/22      808  COMPLETE   
+12  2 Kings              2 سلاطین           OLD           25/25      715  COMPLETE   
+13  1 Chronicles         1۔تواریخ           OLD           29/29      913  COMPLETE   
+14  2 Chronicles         2۔توارِیخ          OLD           36/36      815  COMPLETE   
+15  Ezra                 عزرا               OLD           10/10      275  COMPLETE   
+16  Nehemiah             نحمیاہ             OLD           13/13      405  COMPLETE   
+17  Esther               آستر               OLD           10/10      166  COMPLETE   
+18  Job                  ایّوب              OLD           42/42     1068  COMPLETE   
+19  Psalms               زبُور              OLD         150/150     2343  COMPLETE   
+20  Proverbs             اِمثال             OLD           31/31      914  COMPLETE   
+21  Ecclesiastes         واعظ               OLD           12/12      222  COMPLETE   
+22  Song of Solomon      غزلُ الغزلات       OLD             8/8      116  COMPLETE   
+23  Isaiah               أیسعیاہ            OLD           66/66     1280  COMPLETE   
+24  Jeremiah             یرمیاہ             OLD           52/52     1357  COMPLETE   
+25  Lamentations         منَوحہ             OLD             5/5      154  COMPLETE   
+26  Ezekiel              حزقی ایل           OLD           48/48     1264  COMPLETE   
+27  Daniel               دانی ایل           OLD           12/12      356  COMPLETE   
+28  Hosea                ہوسیع              OLD           14/14      183  COMPLETE   
+29  Joel                 یُوایل             OLD             3/3       73  COMPLETE   
+30  Amos                 عامُوس             OLD             9/9      145  COMPLETE   
+31  Obadiah              عبدیاہ             OLD             1/1       21  COMPLETE   
+32  Jonah                یُوناہ             OLD             4/4       48  COMPLETE   
+33  Micah                میکاہ              OLD             7/7      105  COMPLETE   
+34  Nahum                نا حُوم            OLD             3/3       47  COMPLETE   
+35  Habakkuk             حبقُوق             OLD             3/3       56  COMPLETE   
+36  Zephaniah            صفنیاہ             OLD             3/3       53  COMPLETE   
+37  Haggai               حجَّی              OLD             2/2       38  COMPLETE   
+38  Zechariah            زکریاہ             OLD           14/14      211  COMPLETE   
+39  Malachi              ملاکی              OLD             4/4       55  COMPLETE   
+40  Matthew              متّی               NEW           28/28     1071  COMPLETE   
+41  Mark                 مرقس               NEW           16/16      678  COMPLETE   
+42  Luke                 لُوقا              NEW           24/24     1151  COMPLETE   
+43  John                 یُوحنّا            NEW           21/21      879  COMPLETE   
+44  Acts                 اعمال              NEW           28/28     1007  COMPLETE   
+45  Romans               رومیوں             NEW           16/16      433  COMPLETE   
+46  1 Corinthians        ۱ کُرنتھِیوں       NEW           16/16      437  COMPLETE   
+47  2 Corinthians        ۲ کُرنتھِیوں       NEW           13/13      257  COMPLETE   
+48  Galatians            گلتیوں             NEW             6/6      149  COMPLETE   
+49  Ephesians            افسیوں             NEW             6/6      155  COMPLETE   
+50  Philippians          فلپیوں             NEW             4/4      105  COMPLETE   
+51  Colossians           کُلسّیوں           NEW             4/4       95  COMPLETE   
+52  1 Thessalonians      ۱ تھِسلُنیکیوں     NEW             5/5       89  COMPLETE   
+53  2 Thessalonians      ۲ تھِسلُنیکیوں     NEW             3/3       47  COMPLETE   
+54  1 Timothy            ۱ تیمِتھُیس        NEW             6/6      113  COMPLETE   
+55  2 Timothy            ۲ تیمِتھُیس        NEW             4/4       83  COMPLETE   
+56  Titus                طِطُس              NEW             3/3       46  COMPLETE   
+57  Philemon             فلیمون             NEW             1/1       25  COMPLETE   
+58  Hebrews              العبرانيين         NEW           13/13      303  COMPLETE   
+59  James                یعقُوب             NEW             5/5      108  COMPLETE   
+60  1 Peter              ۱ پطرس             NEW             5/5      105  COMPLETE   
+61  2 Peter              ۲ پطرس ۱           NEW             3/3       61  COMPLETE   
+62  1 John               ۱ یُوحنّا          NEW             5/5      105  COMPLETE   
+63  2 John               ۲ یُوحنّا          NEW             1/1       13  COMPLETE   
+64  3 John               ۳ یُوحنّا          NEW             1/1       14  COMPLETE   
+65  Jude                 یہُوداہ            NEW             1/1       25  COMPLETE   
+66  Revelation           مُکاشفہ            NEW           22/22      404  COMPLETE   
+--------------------------------------------------------------------------------
+4. RECENT IMPORT AUDIT LOG TRANSACTIONS (LATEST 25)
+--------------------------------------------------------------------------------
+No recent transaction logs recorded.
+================================================================================
+END OF AUDIT REPORT - THE CHURCH OF PENTECOST DUBAI
+================================================================================

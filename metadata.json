@@ -1,0 +1,8 @@
+{
+  "name": "Remix Word Memory - The Church of Pentecost Dubai",
+  "description": "Official Bible Verse Memorization \u0026 Spiritual Growth Platform for The Church of Pentecost Dubai, Pakistani \u0026 Indian Worship Centre. Read, Understand, Memorize, Review, and Live the Word.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
